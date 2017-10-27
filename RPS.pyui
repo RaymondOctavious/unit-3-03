@@ -1,0 +1,103 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{47, 14}, {208, 75}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "712014F7-3EC6-471C-BC17-03639043B5AE",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Choose Rock, Paper , or Scissors",
+          "name" : "question_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{74, 224}, {278, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "5299AA40-CCD6-4EB4-8C27-B8F7BEB15763",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "answer_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{47, 139}, {94, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "rock_button_touch_up_inside",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "Rock",
+          "uuid" : "960B5EAE-9515-450A-B3E5-6078B5A78482",
+          "class" : "Button",
+          "name" : "rock_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{175, 139}, {95, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "paper_button_touch_up_inside",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "Paper",
+          "uuid" : "95956FC8-CFE2-4CDC-9376-5E4DD40B6C13",
+          "class" : "Button",
+          "name" : "paper_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{307, 139}, {103, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "scissors_button_touch_up_inside",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "Scissors",
+          "uuid" : "2E5612E8-D346-4153-B689-4CCAA90E48A8",
+          "class" : "Button",
+          "name" : "scissors_button",
+          "font_size" : 15
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {480, 320}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
